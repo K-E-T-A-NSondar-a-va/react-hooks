@@ -1,0 +1,38 @@
+body {
+    background: #e2e2e2;
+    padding-top: 21%;
+    padding-left: 39%;
+}
+
+.container {
+    border: solid 1px gray;
+    width: fit-content;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.display-inline-block {
+    display: inline-block;
+}
+
+p {
+    font-size: 30px;
+    padding-left: 120px;
+}
+button {
+    font-size: 17px;
+    padding: 10px;
+    margin: 12px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    /* background-color: #007acc; */
+    background-image: linear-gradient(to right, #0073e6,  #3399ff);
+    color: white;
+    border: none; 
+}
+
+button:hover {
+    
+    background-image: linear-gradient(to right, #262626,  #666666);
+}
